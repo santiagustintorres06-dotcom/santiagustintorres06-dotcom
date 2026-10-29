@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="Diagram of the family expense organizer showing spreadsheet and calendar views connecting to PySide6 service and SQLite persistence layers">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1120"/><stop offset="1" stop-color="#141c32"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58e7b2"/><stop offset="1" stop-color="#8b83ff"/></linearGradient>
+  <pattern id="grid" width="27" height="27" patternUnits="userSpaceOnUse"><path d="M27 0H0V27" fill="none" stroke="#344364" stroke-width="0.7" opacity=".32"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" /></filter>
+</defs>
+<rect width="1200" height="350" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="350" rx="22" fill="url(#grid)"/>
+<rect x="28" y="24" width="1144" height="302" rx="17" fill="#0d1629" fill-opacity=".66" stroke="#263a54"/>
+<rect x="52" y="48" width="6" height="46" rx="3" fill="url(#accent)"/>
+<text x="73" y="70" font-family="Arial, sans-serif" font-weight="bold" font-size="27" fill="#f1f6ff">ARREGLÁ TUS GASTOS</text>
+<text x="73" y="91" font-family="Arial, sans-serif" font-size="14" fill="#92aac6">REAL-WORLD APP  /  PYTHON DESKTOP  /  FAMILY FINANCES</text>
+<rect x="962" y="45" width="169" height="31" rx="15" fill="#18273a" stroke="#57dcae" stroke-opacity=".65"/>
+<text x="1046" y="66" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#69e1bb">BUILT FOR FAMILY</text>
+<!-- Spreadsheet panel -->
+<rect x="64" y="128" width="302" height="132" rx="12" fill="#142337" stroke="#425571" stroke-width="1.5"/>
+<rect x="64" y="128" width="302" height="34" rx="12" fill="#20354b"/><rect x="64" y="150" width="302" height="12" fill="#20354b"/>
+<text x="83" y="150" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#ebf6ff">SPREADSHEET VIEW</text>
+<g stroke="#334b63" stroke-width="1"><path d="M81 183H349 M81 208H349 M81 233H349"/><path d="M148 171V248 M270 171V248"/></g>
+<text x="91" y="178" font-family="monospace" font-size="10" fill="#9aabc0">DAY</text><text x="163" y="178" font-family="monospace" font-size="10" fill="#9aabc0">CATEGORY</text><text x="283" y="178" font-family="monospace" font-size="10" fill="#9aabc0">AMOUNT</text>
+<text x="95" y="198" font-family="monospace" font-size="12" fill="#b0d9e8">04</text><text x="162" y="198" font-family="monospace" font-size="12" fill="#b0d9e8">Groceries</text><text x="286" y="198" font-family="monospace" font-size="12" fill="#69ddb6">$...</text>
+<text x="95" y="224" font-family="monospace" font-size="12" fill="#b0d9e8">06</text><text x="162" y="224" font-family="monospace" font-size="12" fill="#b0d9e8">Transport</text><text x="286" y="224" font-family="monospace" font-size="12" fill="#69ddb6">$...</text>
+<text x="95" y="248" font-family="monospace" font-size="12" fill="#b0d9e8">12</text><text x="162" y="248" font-family="monospace" font-size="12" fill="#b0d9e8">Utilities</text><text x="286" y="248" font-family="monospace" font-size="12" fill="#69ddb6">$...</text>
+<!-- Center two-way sync -->
+<path d="M386 190H438" stroke="#58e7b2" stroke-width="3" stroke-linecap="round"/><path d="M432 184L441 190L432 196" fill="none" stroke="#58e7b2" stroke-width="3" stroke-linecap="round"/>
+<path d="M438 211H386" stroke="#8b83ff" stroke-width="3" stroke-linecap="round"/><path d="M392 205L383 211L392 217" fill="none" stroke="#8b83ff" stroke-width="3" stroke-linecap="round"/>
+<text x="413" y="174" font-size="12" fill="#9cb2c7" text-anchor="middle" font-family="Arial,sans-serif">SYNC</text>
+<!-- Calendar panel -->
+<rect x="459" y="128" width="282" height="132" rx="12" fill="#142337" stroke="#425571" stroke-width="1.5"/>
+<rect x="459" y="128" width="282" height="34" rx="12" fill="#20354b"/><rect x="459" y="150" width="282" height="12" fill="#20354b"/>
+<text x="478" y="150" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#ebf6ff">CALENDAR VIEW</text>
+<g fill="#263b56"><rect x="484" y="174" width="28" height="23" rx="3"/><rect x="520" y="174" width="28" height="23" rx="3"/><rect x="556" y="174" width="28" height="23" rx="3"/><rect x="592" y="174" width="28" height="23" rx="3"/><rect x="628" y="174" width="28" height="23" rx="3"/><rect x="664" y="174" width="28" height="23" rx="3"/><rect x="484" y="204" width="28" height="23" rx="3"/><rect x="520" y="204" width="28" height="23" rx="3"/><rect x="556" y="204" width="28" height="23" rx="3"/><rect x="592" y="204" width="28" height="23" rx="3"/><rect x="628" y="204" width="28" height="23" rx="3"/><rect x="664" y="204" width="28" height="23" rx="3"/></g>
+<g fill="#337760"><rect x="556" y="174" width="28" height="23" rx="3"/><rect x="628" y="174" width="28" height="23" rx="3"/></g>
+<rect x="520" y="204" width="28" height="23" rx="3" fill="#6156a3"/><rect x="664" y="204" width="28" height="23" rx="3" fill="#9c65a2"/>
+<text x="600" y="247" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" fill="#a8c1d7">Monthly totals + expense heatmap</text>
+<!-- Service architecture -->
+<path d="M758 196H798" stroke="#58e7b2" stroke-width="3"/><path d="M791 189L801 196L791 203" fill="none" stroke="#58e7b2" stroke-width="3"/>
+<rect x="819" y="132" width="313" height="58" rx="10" fill="#183c3c" stroke="#4ac5a8" stroke-width="1.5"/>
+<text x="974" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#e0fff2">PYSIDE6 · SERVICES</text>
+<text x="974" y="176" text-anchor="middle" font-family="monospace" font-size="11" fill="#a3d5ca">BUSINESS LOGIC / REPOSITORIES</text>
+<path d="M974 190V209" stroke="#7b80ee" stroke-width="2.5"/><path d="M968 203L974 212L980 203" fill="none" stroke="#7b80ee" stroke-width="2.5"/>
+<rect x="819" y="218" width="313" height="54" rx="10" fill="#252d49" stroke="#8f85ee" stroke-width="1.5"/>
+<text x="975" y="243" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="bold" fill="#eeecff">SQLITE</text>
+<text x="975" y="260" text-anchor="middle" font-family="monospace" font-size="11" fill="#c5bbf8">INTEGER CENTS / DAILY BACKUPS</text>
+<text x="67" y="299" font-family="monospace" font-size="12" fill="#7895ae">PYTHON  ·  PYSIDE6  ·  SQLITE  ·  DECIMAL  ·  LAYERED DESIGN</text>
+<circle cx="1112" cy="299" r="4" fill="#58e7b2"/>
+</svg>
