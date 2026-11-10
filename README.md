@@ -28,16 +28,17 @@ santiago@utn:~$ cat about.txt
 
   Name       : Santiago Agustín Torres
   Location   : Córdoba, Argentina
-  Education  : Information Systems Engineering · UTN FRC
-  Focus      : Backend development · Data · Software architecture
+  Education  : Information Systems Engineering · UTN FRC (3rd year)
+  Focus      : Backend development · Data · AI · Software architecture
   Building   : Java and Python applications, REST APIs, SQL analytics
   Exploring  : Cloud engineering and production-ready systems
+  Certified  : Google Cloud · Google AI + Python
   Mindset    : Understand the system. Design the solution. Ship the code.
 ```
 
 I’m an **Information Systems Engineering student at UTN Córdoba** who enjoys connecting the dots between **software architecture, backend development, databases, and AI**.
 
-I enjoy turning real problems into usable software: a family expense organizer, a brewing production system with AI-assisted features, and SQL analytics for a realistic business scenario. I'm interested in **internship and trainee opportunities** where I can keep growing as an engineer.
+I enjoy turning real problems into usable software: a family expense organizer, a household inventory PWA, a brewing production system with AI-assisted features, and SQL analytics for a realistic business scenario. I'm interested in **internship and trainee opportunities** where I can keep growing as an engineer.
 
 ---
 
@@ -71,6 +72,7 @@ An end-to-end relational database and sales analytics project built around a rea
 I built this **Python desktop application to solve a real need in my family**: keeping monthly expenses organized and easy to review. Unlike a classroom-only assignment, it was designed around people who would actually use it.
 
 - **Two synchronized views:** spreadsheet-style editing and a monthly calendar with daily totals and expense intensity.
+- **Credit-card tracking:** a dedicated section to manage credit-card spending (expenses only — no card numbers or personal data are stored).
 - **Reliable financial calculations:** stores monetary values in integer cents and uses `Decimal` to avoid floating-point rounding issues.
 - **Maintainable design:** separates the PySide6 interface, business services, data repositories, and SQLite database.
 - **Portable by design:** local data storage, automated daily backups, and test coverage.
@@ -78,6 +80,21 @@ I built this **Python desktop application to solve a real need in my family**: k
 **Engineering highlights:** Python · PySide6 · SQLite · layered architecture · data consistency
 
 <a href="https://github.com/santiagustintorres06-dotcom/arreglatusgastos"><img alt="Explore family expense manager" src="https://img.shields.io/badge/EXPLORE_EXPENSE_MANAGER-554C98?style=flat-square&logo=github&logoColor=white" /></a>
+
+### 04 · En casa — Household PWA (React + Firebase)
+
+A **family app to manage home inventory and build the supermarket list**, installable on any phone as a PWA. Built to solve an everyday problem for the people I live with, and used by them.
+
+- **Automatic shortages:** when a product reaches its minimum stock, it shows up in the shopping list.
+- **Faster shopping:** suggestions from a 150-product catalog; confirming the purchase updates the inventory.
+- **Shared household data:** sign in with Google to share one household across family members.
+- **Offline-first:** installable on Android and iPhone, saves changes without a connection and syncs when back online.
+
+**Engineering highlights:** React · TypeScript · Vite · Tailwind CSS · Firebase · PWA
+
+<a href="https://github.com/santiagustintorres06-dotcom/en-casa"><img alt="Explore En casa repository" src="https://img.shields.io/badge/EXPLORE_EN_CASA-554C98?style=flat-square&logo=github&logoColor=white" /></a>
+<a href="https://encasa-5258f.web.app"><img alt="Open the live app" src="https://img.shields.io/badge/OPEN_LIVE_APP-2A9D78?style=flat-square&logo=firebase&logoColor=white" /></a>
+
 
 ---
 
@@ -111,6 +128,12 @@ These smaller projects document **what I learned by building**, from classic com
 ![RAG](https://img.shields.io/badge/RAG-246B5B?style=for-the-badge)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-384457?style=for-the-badge)
 
+**Web & Cloud**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
 **Databases & tools**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -121,7 +144,7 @@ These smaller projects document **what I learned by building**, from classic com
 ![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-<sub>Currently expanding my knowledge of **Docker and cloud technologies**.</sub>
+<sub>Currently expanding my knowledge of **Docker and cloud technologies** (Google Cloud certified).</sub>
 
 ---
 
